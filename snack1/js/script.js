@@ -37,13 +37,3 @@ var datiBiciLeggera = `La bici leggera è la ${nome} e il suo peso è ${peso}`;
 
 biciLeggera.innerHTML = datiBiciLeggera;
 
-// alternativa
-// var biciLeggera = bicicletta[0];
-// for(var i = 1; i<biciclette.length; i++){
-//     var biciCorrente = bicicletta[i];
-//     if (biciCorrente.peso<biciLeggera.peso)
-//     biciLeggera = biciCorrente;
-// }
-// console.log(biciLeggera);
-
-// console.log("La bici con peso minore è: " + biciclette[minimo].nome);
